@@ -46,9 +46,9 @@
             // 
             // btnObtenerTodos
             // 
-            this.btnObtenerTodos.Location = new System.Drawing.Point(359, 267);
+            this.btnObtenerTodos.Location = new System.Drawing.Point(251, 267);
             this.btnObtenerTodos.Name = "btnObtenerTodos";
-            this.btnObtenerTodos.Size = new System.Drawing.Size(99, 35);
+            this.btnObtenerTodos.Size = new System.Drawing.Size(292, 25);
             this.btnObtenerTodos.TabIndex = 1;
             this.btnObtenerTodos.Text = "Cargar Todo";
             this.btnObtenerTodos.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 291);
+            this.label1.Location = new System.Drawing.Point(285, 336);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             // btnTodos
             // 
-            this.btnTodos.Location = new System.Drawing.Point(205, 314);
+            this.btnTodos.Location = new System.Drawing.Point(387, 359);
             this.btnTodos.Name = "btnTodos";
             this.btnTodos.Size = new System.Drawing.Size(75, 23);
             this.btnTodos.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // tbxIDCustomers
             // 
-            this.tbxIDCustomers.Location = new System.Drawing.Point(167, 288);
+            this.tbxIDCustomers.Location = new System.Drawing.Point(353, 333);
             this.tbxIDCustomers.Name = "tbxIDCustomers";
             this.tbxIDCustomers.Size = new System.Drawing.Size(146, 20);
             this.tbxIDCustomers.TabIndex = 4;
