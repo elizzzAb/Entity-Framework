@@ -74,5 +74,11 @@ namespace EFDemo
             List<Customers> lista1 = new List<Customers> { resultado };
             dgvCustomers.DataSource = lista1;
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            var eliminadas = cr.EliminarCliente(txbCustomerID.Text);
+            MessageBox.Show($"Se elimino {eliminadas} filas");
+        }
     }
 }
